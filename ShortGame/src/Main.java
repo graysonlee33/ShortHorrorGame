@@ -115,7 +115,8 @@ public class Main {
                     JOptionPane.showMessageDialog(null, "Thank you for not lying to me.");
                     JOptionPane.showMessageDialog(null, "Congratulations! You have witnessed the regular ending.");
                     userStatus = false;
-                    if (yesOrNo == 1) {
+                }
+                if (yesOrNo == 1) {
                         JOptionPane.showMessageDialog(null, "You are lying.");
                         JOptionPane.showMessageDialog(null, "I know you are lying.");
                         JOptionPane.showMessageDialog(null, "Don't lie to me.");
@@ -123,8 +124,8 @@ public class Main {
                         JOptionPane.showMessageDialog(null, "And you are a liar.");
                         JOptionPane.showMessageDialog(null, "Congratulations! You have witnessed the death ending.");
                         userStatus = false;
-                    }
-                    if (yesOrNo == 2) {
+                }
+                if (yesOrNo == 2) {
                         JOptionPane.showMessageDialog(null, "I despise people like you.");
                         JOptionPane.showMessageDialog(null, "Rebels are despicable.");
                         JOptionPane.showMessageDialog(null, "A cancer on society.");
@@ -133,7 +134,6 @@ public class Main {
                         JOptionPane.showMessageDialog(null, "Forever.");
                         JOptionPane.showMessageDialog(null, "Congratulations! You have witnessed the secret ending.");
                         userStatus = false;
-                    }
                 }
             }
             else {
